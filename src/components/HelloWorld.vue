@@ -113,7 +113,7 @@ export default {
 				scene.add( mesh );
 
 				const loader = new GLTFLoader();
-				loader.load( '/src/assets/model/Soldier.glb', function ( gltf ) {
+				loader.load( './assets/model/Soldier.glb', function ( gltf ) {
 
 					model = gltf.scene;
 					scene.add( model );
